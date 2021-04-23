@@ -1,0 +1,134 @@
+main {
+	background-color: #000;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+header {
+	min-height: 1136px;
+	background-image: url("img/header_bg.png");
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	position: absolute;
+	margin: 0;
+	width: 853px;
+	height: 170px;
+	top: 105px;
+	left: 73px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 70px;
+	line-height: 85px;
+	color: #ffffff;
+} 
+
+.accent_color {
+	color: #F66C41;
+}
+
+section {
+	padding: 0 73px;
+}
+
+.header_text {
+	margin: 128px 0 0;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 400a;
+	font-size: 36px;
+	line-height: 44px;
+	color: #BCBBBB;
+
+
+}
+
+.strikethrough {
+	text-decoration: line-through;
+}
+
+.first_joke {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 70px;
+	line-height: 85px;
+	color: #fff;
+	margin-bottom: 90px;
+}
+
+h3 {
+	color: #fff;
+	font-family: Montserrat;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 44px;
+	margin-bottom: 20px;
+
+}
+
+ul {
+	color: #ffff;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 44px;
+	margin-bottom: 90px;
+	list-style: none;
+	padding-left: 0;
+}
+
+
+.joke {
+	color: #fff;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 70px;
+	line-height: 85px;
+	margin-bottom: 20px;
+}
+
+.joke_text {
+	color: #fff;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 44px;
+	max-width: 811px;
+	margin-bottom: 90px;
+}
+
+footer{
+	background-color: #000;
+	max-width: 1000px;
+	padding: 0 73px;
+	padding-bottom: 104px;
+}
+
+a {
+	color: #F66C41;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 44px;
+	text-decoration: none;
+	border-bottom: 2px solid #F66C41;
+}
+
+ul li:before { 
+	content:"•"; 
+	font-size: 30pt;
+	padding-right: 15px;
+	padding-left: 25px; 
+}
+
